@@ -1,0 +1,41 @@
+h1 {
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+h2 {
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+h3 {
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+img {
+    /*inserir codigo para centralizar a imagem.*/
+    display: flex;
+    position:relative;
+    margin:auto;
+}
+
+p {
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
