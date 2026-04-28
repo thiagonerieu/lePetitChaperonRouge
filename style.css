@@ -11,21 +11,20 @@ h2 {
   }
 
 h3 {
-    font-size: 2em;
+    font-size: 1em;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
   }
 
-img {
-    /*inserir codigo para centralizar a imagem.*/
+.container-bloc {
     display: flex;
-    position:relative;
-    margin:auto;
-}
-
-p {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 1.4em;
-    text-align: justify;
+    margin: auto;
+    max-width: 80vh;
+    gap: 2px;
 }
 
 a {
